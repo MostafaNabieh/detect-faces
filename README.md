@@ -1,5 +1,6 @@
 # Face detection with OpenCV and deep learning
 The best reference for Computer Vision is **pyimagesearch**
+
 I used numpy, argparse. opencv. 
 
 The **argparse** module makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments.
@@ -18,7 +19,9 @@ OpenCV’s deep learning face detector is based on the Single Shot Detector (SSD
 We have three required arguments for image:
 
 --image : The path to the input image.
+
 --prototxt : The path to the Caffe prototxt file.
+
 --model : The path to the pretrained Caffe model.
 
 We have Two required arguments for video:
@@ -26,4 +29,5 @@ We have Two required arguments for video:
 --prototxt : The path to the Caffe prototxt file.
 --model : The path to the pretrained Caffe model.
 
-![Video_2021-01-17_150348](https://user-images.githubusercontent.com/46414243/104920344-4dcf4200-59a0-11eb-967f-99695e30091c.gif)
+![Video_2021-01-17_150348 00_00_07-](https://user-images.githubusercontent.com/46414243/104921227-b4089480-59a1-11eb-91f1-b946d0c4a9c1.gif)
+
